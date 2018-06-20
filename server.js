@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const users = require('./routes/api/users');
 const profile = require('./routes/api/profile');
 const posts = require('./routes/api/posts');
+require('dotenv').config();
 const app = express();
 
 // DB Config
